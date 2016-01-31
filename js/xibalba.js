@@ -21,6 +21,7 @@ function create() {
   bg.scale.setTo(.75)
 
   playerBody = game.add.sprite(game.world.centerX, 575, 'playerBody')
+  playerBody.scale.setTo(.75)
   playerBody.anchor.setTo(0.5, 0.5);
 }
 
