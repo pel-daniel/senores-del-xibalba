@@ -12,11 +12,12 @@ var game = new Phaser.Game(
 );
 
 function preload() {
-
+  game.load.image('background', 'assets/background.png');
 }
 
 function create() {
-
+  bg = game.add.tileSprite(0, 0, 400, 800, 'background');
+  bg.scale.setTo(.75)
 }
 
 function update() {
